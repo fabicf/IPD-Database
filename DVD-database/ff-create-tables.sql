@@ -141,7 +141,7 @@ create table Customers
 	/* ***** Table No. 7 - Status ***** */
     create table Status
     (
-		StatID char(3) not null,
+		StatID char(2) not null,
         StatDescrip varchar(20) not null, 
         constraint pk_Status primary key (StatID asc)
 	)
@@ -156,7 +156,7 @@ create table Customers
     ;
     
      alter table Status
-	change column `StatusID` `StatID` char(3) not null
+	change column `StatID` `StatID` char(2) not null
     ;
     
 	/* ***** Table No. 8 - Participants ***** */
@@ -169,6 +169,10 @@ create table Customers
         RoleID varchar(20) not null, 
         constraint pk_Participants primary key clustered (PartID asc)
 	)
+    ;
+    
+    alter table Participants
+	change column `PartMN` `PartMN` char(20)  null
     ;
     
     /* ***** remove RoleID from table Participants ***** */
@@ -325,5 +329,4 @@ create table Customers
     alter table table_name
 		change old_column_name new_column_name data type
     */
-    
     

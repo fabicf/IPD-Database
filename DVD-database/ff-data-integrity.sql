@@ -87,12 +87,15 @@ alter table DVDs
 	add constraint fk_DVDs_Format foreign key (FormID) references Formats (FormID)
 ;
 
+
 /* 5. between DVDs and Status tables */
 alter table DVDs
 	add constraint fk_DVDs_Status foreign key (StatID) references Status (StatID)
 ;
 
-
+-- alter table DVDs
+-- 	drop constraint fk_DVDs_Status 
+--     ;
 /* ********************************************************** */
 
 /* Add foreign key constraint(s) to the table DVDParticipants */
