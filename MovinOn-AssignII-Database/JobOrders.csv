@@ -1,0 +1,29 @@
+JobID,CustID,MoveDate,FromAddress,FromCity,FromState,ToAddress,ToCity,ToState,DistanceEst,WeightEst,Packing,Heavy,Storage
+2,1,2016-09-05,1789 Eighth Avenue,Spokane,WA,7899 Grandview Apt #5,Pullman,WA,60,1250,1,1,0
+3,3,2016-09-15,4433 Grindstaff St,Kennewick,WA,#3 Madison Ct,Richmond,WA,10,2000,0,0,0
+4,3,2016-09-20,9000 Greely Pkwy,Seattle,WA,6788 Fifth Avenue,Tacoma,WA,15,1200,1,1,0
+5,9,2016-09-30,143 Faulkner Lane,Bellingham,WA,6788 Carson Road,Tacoma,WA,120,5500,1,1,0
+6,16,2016-10-01,7990 Bellington Road,Mount Vernon,WA,78661 Davidson Drive,Marysville,WA,35,5500,1,1,0
+7,13,2016-10-05,9000 Wayside Drive,Casper,WY,8989 Franklin Street,Cody,WY,214,5000,1,1,0
+8,7,2016-10-05,9001 Harvard Way,Cheyenne,WY,78 Fortner Court,Sheridan,WY,329,2500,1,1,0
+9,4,2016-10-05,89098 Jackson Street,Jackson,WY,2009 Kinsington Place,Cody,WY,178,5500,1,1,0
+10,4,2016-10-20,7890 Grapevine Court,Riverton,WY,666 Grand Pead Drive,Casper,WY,120,2500,0,1,0
+11,10,2016-10-15,9001 Shady Lane,Bend,OR,9000 Smith Avenue,Eugene,OR,115,5500,1,1,0
+12,10,2016-10-18,87998 McDonald Road,Eugene,OR,78987 Garrison Way,Salem,OR,65,2000,0,0,0
+13,26,2016-10-15,7899 Tindell St,Medford,OR,3422 Victory Circle,John Day,OR,330,6500,1,1,0
+14,36,2016-10-08,8900 Washington Street,Astoria,OR,6755 Garrison Park Road,Pendleton,OR,300,7000,1,1,0
+15,18,2016-10-16,7890 Eighth Ave,Tacoma,WA,89 Fifth Avenue,Wenatchee,WA,165,5500,1,1,0
+16,27,2016-10-18,#5 Mountain View Way,Spokane,WA,4509 El Cajon Blvd,Yakima,WA,200,7200,1,1,1
+17,32,2016-10-15,2344 Grandview St,Portland,OR,309 Fifth Street S,Bremeton,WA,175,5500,1,1,1
+18,17,2016-10-14,1290 Franklin Street,Rock Springs,WY,3409 Greelee St,Cheyenne,WY,260,6000,1,1,1
+19,17,2016-10-22,# 3 Madison Ct,Rock Springs,WY,2456 Faulkner Road,Cheyenne,WY,260,5000,1,1,0
+20,38,2016-10-23,9710 Homewood Circle,Jackson,WY,1209 Grandview Court,Cody,WY,180,4000,1,0,1
+21,31,2016-10-24,5789 Tinsdale Rd,Cody,WY,2509 22nd Street,Riverton,WY,140,5500,1,1,1
+22,13,2016-10-30,5690 McDonald Pkwy,Jackson,WY,1098 Cheryl Lane,Rock Springs,WY,180,4500,1,0,1
+23,22,2016-11-05,1200 Greenlee Way,Cheyenne,WY,39098 Scotland Court,Jackson,WY,436,2000,1,1,1
+24,22,2016-11-15,12900 Misty Lane,Cody,WY,#3 Timbercreek Lane,Jackson,WY,178,2500,0,0,0
+25,2,2016-11-15,1200 Haven Street,Salem,OR,10928 Garrison Rd,Medford,OR,225,5000,1,1,0
+26,2,2016-11-15,2099 Nature Walk Rd,Salem,OR,8378 Eighth Ave S,Medford,OR,225,2000,1,0,0
+27,2,2016-11-15,1200 College Street,Salem,OR,7898 Gergory Court,Medford,OR,225,3500,1,0,0
+28,10,2016-11-18,1098 Keystone St,Bend,OR,8798 Hannah Way,Eugene,OR,115,3000,1,1,0
+29,36,2016-11-20,20005 Perking Rd,Pendleton,OR,8777 Austin Lea Road,Bend,OR,243,2500,1,0,0

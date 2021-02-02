@@ -1,0 +1,4 @@
+WarehouseID,Address,City,State,Zip,Phone,ClimateControl,SecurityGate
+OR-1,300 East 32nd Street,Seattle,WA,83001,5035853589,1,1
+WA-1,4483 Longview Drive W,Portland,OR,99213,2062487468,0,0
+WY-1,200 Gattis School Road,Spokane,WA,98102,5032121574,1,1
