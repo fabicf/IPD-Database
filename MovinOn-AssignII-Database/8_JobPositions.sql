@@ -6,12 +6,19 @@ Developed by: Fabiola Faria */
 use movinOn
 ;
 
+
+  Select 
+	count(E.PositionID) as `Number of Types of job`
+ From Employees as E
+ ;
  
  -- different positions from Employees table
  Select 
-	distinct E.PositionID
+	distinct E.PositionID as `Number of Types of job`
  From Employees as E
  ;
+ 
+
  
  
 --  -- different positions from Positions table by positionID

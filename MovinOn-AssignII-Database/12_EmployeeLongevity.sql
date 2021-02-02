@@ -20,14 +20,13 @@ use movinOn
 	concat(E.EmpFirst, ' ', E.EmpLast) as `Employee Name`,
     W.WarehouseID as `Warehouse`,
     P.Title as `Position`,
-	year(current_date()) - year(E.StartDate) as `Years worked`
+	year(sysdate()) - year(E.StartDate) as `Years worked`
 from Employees as E
 	inner join Positions as P
 		on E.PositionID = P.PositionID
 	inner join Warehouses as W
 		on E.WarehouseID = W.WarehouseID
-order by P.Title and W.WarehouseID
- ;
+order by W.WarehouseID, P.Title;
  
  
  

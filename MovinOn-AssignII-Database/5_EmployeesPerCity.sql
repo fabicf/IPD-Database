@@ -8,7 +8,9 @@ use movinOn
 
 -- it needs city and number of employees = count
 
- select  count(EmpID) as `Number of Employees`, E.City as `City`
+ select  
+	count(E.EmpID) as `Number of Employees`, 
+    E.City as `City`
  from Employees as E
  group by city
  ; 	-- 9 seattle + 4 spokane + 10 jackson hole + 10 portland = 33

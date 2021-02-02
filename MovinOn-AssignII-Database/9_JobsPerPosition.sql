@@ -6,11 +6,6 @@ Developed by: Fabiola Faria */
 use movinOn
 ;
 
--- Employeed by Positions
- select  count(E.EmpID) as `Number of Employees`, E.PositionID as `Position ID`
- from Employees as E
- group by E.PositionID
- ; 
 
 
 -- trying to show Employees by positionID and by position title
@@ -23,3 +18,11 @@ use movinOn
 on E.PositionID = P.PositionID
 group by E.PositionID
 ; 
+
+
+
+-- -- Employeed by Positions
+--  select  count(E.EmpID) as `Number of Employees`, E.PositionID as `Position ID`
+--  from Employees as E
+--  group by E.PositionID
+--  ; 
