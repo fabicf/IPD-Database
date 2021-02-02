@@ -248,7 +248,7 @@ create table JobDetails
         JobID asc,
         VehicleID asc,
         DriverID asc        
-        ) -- composite Foreign key
+        ) -- composite Primary key
         
 )
 ;

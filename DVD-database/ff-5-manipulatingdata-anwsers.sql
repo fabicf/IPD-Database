@@ -146,7 +146,7 @@ from DVDs
 select OrderID, count(TransID) as 'Number of Transactions per Order'
 from Transactions
 group by OrderID
-order by count(TransID) desc
+-- order by count(TransID) desc
 ;
 
 select OrderID, count(TransID) as `Number of Transactions per Order`
@@ -169,7 +169,8 @@ group by EmpID
 /* Return the total number of orders placed by each customer */
 select CustID as `Customer ID`, count(OrderID) as `Order taken by Customer`
 from Orders
-group by CustID;
+group by CustID
+;
 
 /* 18. list customers who placed more than 2 orders */
 select CustID as `Customer ID`, count(OrderID) as `Number of Orders`

@@ -65,8 +65,6 @@ select *
 from Positions
 ; 
 
-
-
 /* ============= Table No. 3 - Vehicles ================== */  -- --> Ok
 
 /* load data from external csv file */
@@ -112,7 +110,7 @@ SET
     EndDate = NULLIF(@EndDate,'')
 ;
 
--- check constrait violeted data, because in line 10 csv file the EndDate is < StartDate
+-- check constrait violeted data, because in line 15 csv file the EndDate is < StartDate
 -- to solve this we changed line 10 in csv file
 
 select *
@@ -175,7 +173,7 @@ ignore 1 rows
 select *
 from Employees;
 
-
+-- delete from Employees; Had to delete date because I set up a current date to answer question 12 and messed up with everything. 
 
 /* ============= Table No. 7 - StorageUnits  ================== */ -- -->  OK
 
