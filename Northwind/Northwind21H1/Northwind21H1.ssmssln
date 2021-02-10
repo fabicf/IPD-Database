@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Northwind21H1", "Northwind21H1\Northwind21H1.ssmssqlproj", "{03371860-771A-47A1-B897-41A7CB0DFAFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03371860-771A-47A1-B897-41A7CB0DFAFA}.Default|Default.ActiveCfg = Default
+		{F5714175-AB7F-4947-BFDB-009098FB5D01}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B450D40D-B8A3-4D0A-80E0-31E58EC31855}
+	EndGlobalSection
+EndGlobal
