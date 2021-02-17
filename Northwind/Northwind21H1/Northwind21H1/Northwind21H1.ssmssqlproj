@@ -19,6 +19,60 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="10-rename-objects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10-rename-objects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11-update-data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11-update-data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12-insert-special-data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12-insert-special-data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13-summary-data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13-summary-data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14-Manipulating-data_Part_1_Questions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14-Manipulating-data_Part_1_Questions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_manipulate_data_Part_2_Questions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_manipulate_data_Part_2_Questions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16-create-view-objects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16-create-view-objects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17-using-system-functions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17-using-system-functions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19-Nested (Sub) Queries (Questions).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19-Nested (Sub) Queries (Questions).sql</FullPath>
+        </FileNode>
         <FileNode Name="1-create-database.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
@@ -36,6 +90,48 @@
           <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>3-create-user-defined-data-types.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4-using-unique-identifier.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>4-using-unique-identifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5-create-table-obj.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5-create-table-obj.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6-apply-data-Integrity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6-apply-data-Integrity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7-create-index-object.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7-create-index-object.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8-import-data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8-import-data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9-transfer-objects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9-transfer-objects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-R5QSI5Q6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-R5QSI5Q6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -7,7 +7,9 @@ Developed by Fabiola Faria
 /*
 Add a statement that specifies the script runs in the context of the master databse
 */
-
+use Northwind21H1
+;
+go 
 -- swictch to the master database
 -- use database_name
 select *
@@ -206,6 +208,15 @@ create table HumanResources.Employees
 ;
 go
 
+alter table HumanResources.Employees
+	alter column Title nvarchar(30) null
+;
+go
+
+alter table HumanResources.Employees
+	alter column HomePhone nvarchar(24) null
+;
+go
 
 /* ******** Table No. 9 - HumanResources.Region ********** */
 create table HumanResources.Region
@@ -227,8 +238,6 @@ create table HumanResources.Territories
 )
 ;
 go
-
-
 
 
 

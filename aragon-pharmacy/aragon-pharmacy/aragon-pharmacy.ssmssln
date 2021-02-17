@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "aragon-pharmacy", "aragon-pharmacy\aragon-pharmacy.ssmssqlproj", "{11CCC183-6422-44FB-B60E-34A25059DCD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11CCC183-6422-44FB-B60E-34A25059DCD4}.Default|Default.ActiveCfg = Default
+		{5F02A6E0-9E15-4E2C-B0B8-FE4E18BE52DE}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F528D5D1-7D70-4C66-A3E4-5EA0754CF61E}
+	EndGlobalSection
+EndGlobal
